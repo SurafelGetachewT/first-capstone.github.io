@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="./utils/images/logo.jpg" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarGioM Software Development Technology - 2022</title>
+    <meta name="keywords" content="html, css, javascript" />
+    <meta
+      name="description"
+      content="MarGioM Software Development Technology- 2022"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;800;900&display=swap"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Mobile CSS -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <!-- Desktop CSS -->
+    <link rel="stylesheet" media="(min-width:768px)" href="css/desktop.css" />
+  </head>
+  <body class="flex-column-center">
+    <div class="upperside">
+      <ul class="upperside-ul">
+        <li><i class="fab fa-facebook-f light-grey upperside-item"></i></li>
+        <li><i class="fab fa-twitter light-grey upperside-item"></i></li>
+        <li><a href="#" class="logout light-grey upperside-item">Logout</a></li>
+        <li><a href="#" class="mypage light-grey upperside-item">My Page</a></li>
+      </ul>
+    </div>
+    <header class="bg-light-grey flex-column-center">
+      <nav>
+        <div class="nav-bg"></div>
+        <div class="light-black hamburger-menu-display" onclick="openNav()">
+          <i class="fas fa-bars hamburger-menu"></i>
+        </div>
+        <div id="myNav" class="overlay bg-light-black">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <a href="./about.html">About</a>
+            <a href="#services" onclick="closeNav()">Services</a>
+            <a href="#teams" onclick="closeNav()">Dedicated Teams</a>
+            <a href="#industries" onclick="closeNav()">Industries</a>
+            <a href="#contact" onclick="closeNav()">Contact</a>
+          </div>
+        </div>
+        <div class="desktop-navbar">
+          <a href="./index.html" class="main-logo"
+            ><img
+              src="./utils/images/logo.jpg"
+              alt="main logo"
+              class="main-logo-img"
+          /></a>
+          <ul class="navbar-ul">
+            <li><a href="./about.html" class="desktop-nav-link">About</a></li>
+            <li>
+              <a href="#services" class="desktop-nav-link">Services</a>
+            </li>
+            <li><a href="#teams" class="desktop-nav-link">Dedicated Team</a></li>
+            <li><a href="#industries" class="desktop-nav-link">Industries</a></li>
+            <li><a href="#contact" class="desktop-nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <img
+          src="./utils/images/—Pngtree—line-decorative-design-pattern_3634817.png"
+          alt="Background image"
+          class="bg-header-image"
+        />
+        <img
+          src="./utils/images/—Pngtree—line-decorative-design-pattern_3634817.png"
+          alt="Background image"
+          class="bg-header-image-rotate"
+        />
+        <div class="main-content">
+          <div class="main-content-headers">
+            <h2 class="special-color">"Hello! Software world"</h2>
+            <h1 class="special-color">
+              MarGioM Software Development Technology
+            </h1>
+            <h3 class="year special-color heading-big">2022</h3>
+          </div>
+          <div class="header-content text-center">
+            <p>
+              We are a digital transformation consultancy and engineering company that delivers cutting edge solutions for 
+              global organisations and technology startups. 
+              Since 2020 we have been helping companies and established brands reimagine their business 
+              through digitalisation.
+            </p>
+          </div>
+          <div class="infos">
+            <h3 class="date light-black heading-medium">
+              2022.07.25(MON) ~ 27(WED)
+            </h3>
+            <p class="location light-black heading-small">
+              @Kombolcha, Dessie, Ethiopia
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="services flex-column-center" id="services">
+      <h2 class="services-header light-grey heading-medium">
+        Services
+      </h2>
+      <hr class="horizontal-line text-center" />
+      <div class="program-items">
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fas fa-book-reader light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Product Engineering</h3>
+          <p class="item item-content light-grey">
+            Leverage expertise in full life cycle application design, integration and management.
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fab fa-accusoft light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">Mobile Development</h3>
+          <p class="item item-content light-grey">
+            Go mobile first for superior digital product, enabling seamless experience across all device.
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="far fa-comments light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">UX/UI Design</h3>
+          <p class="item item-content light-grey">
+            Leverage expertise in full life cycle application design, integration and management.
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fas fa-code-branch light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">IT Consulting</h3>
+          <p class="item item-content light-grey">
+            Leverage expertise in full life cycle application design, integration and management.
+          </p>
+        </article>
+        <article class="program-item flex-row-center bg-light-black">
+          <div class="item item-icon heading-big">
+            <i class="fas fa-chart-line light-grey"></i>
+          </div>
+          <h3 class="item item-header dark-orange">QA and Testing</h3>
+          <p class="item item-content light-grey">
+            Go mobile first for superior digital product, enabling seamless experience across all device.
+          </p>
+        </article>
+      </div>
+      <button type="button" name="join-us" class="btn main-btn">
+        Get in touch
+      </button>
+      <a class="see-program"><u>SEE THE WHOLE PROGRAM</u></a>
+    </section>
+    <section class="featured-speakers flex-column-center" id="teams">
+      <h2 class="featured-speakers-header light-black heading-medium">
+        Dedicated Team
+      </h2>
+      <hr class="horizontal-line text-center" />
+      <div class="speakers-list"></div>
+      <button
+        type="button"
+        name="join-us"
+        class="btn speakers-btn"
+        onclick="toggleSpeakers()"
+      >
+        MORE <i class="fas fa-angle-down down-arrow"></i>
+      </button>
+    </section>
+    <section class="partners bg-light-black flex-column-center" id="industries">
+      <h2 class="partners-heading light-grey heading-medium">Industries</h2>
+      <hr class="horizontal-line text-center" />
+      <ul class="partners-list flex-row-center">
+        <li class="list-item-container">
+          <img
+            class="list-item"
+            src="./utils/images/construction.png"
+            alt="construction"
+          />
+        </li>
+        <li class="list-item-container">
+          <img
+            class="list-item"
+            src="./utils/images/healthcare.png"
+            alt="healthcare"
+          />
+        </li>
+        <li class="list-item-container">
+          <img
+            class="list-item"
+            src="./utils/images/transport.png"
+            alt="transport"
+          />
+        </li>
+        <li class="list-item-container">
+          <img
+            class="list-item"
+            src="./utils/images/ecommerce.png"
+            alt="e-commerce"
+          />
+        </li>
+      </ul>
+    </section>
+    <footer class="footer flex-column-center" id="contact">
+      <h3 class="contact light-black heading-medium">Contact</h3>
+      <hr class="horizontal-line text-center" />
+      <div class="flex-row-center contact-details">
+        <img
+          src="./utils/images/logo.jpg"
+          alt="margiom logo"
+          class="margiom-logo"
+        />
+        <div class="adress">
+          <p class="phone-number">Phone: +251(0)914331419</p>
+          <p class="adress-details">
+            Surafel Getachew <br />
+            Developer<br />
+            Ethiopia- Dessie
+          </p>
+        </div>
+      </div>
+      <p class="rights"><i class="far fa-copyright"></i>2022. All rights reserved</p>
+    </footer>
+    <script src="./js/team.js"></script>
+  </body>
+</html>
